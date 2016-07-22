@@ -31,7 +31,7 @@ module Vimeo
 
     # The adapter will be used to connect if none is set
     # considering switch to faraday
-    DEFAULT_ADAPTER = HTTParty.connection_adapter
+    # DEFAULT_ADAPTER = HTTParty.connection_adapter
 
     # By default, a User access_token isn't set
     DEFAULT_ACCESS_TOKEN = nil
