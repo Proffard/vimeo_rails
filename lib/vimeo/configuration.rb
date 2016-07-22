@@ -49,7 +49,7 @@ module Vimeo
     DEFAULT_ENDPOINT = 'https://api.vimeo.com'
 
     # The user agent that will be sent to the API endpoint if none is set
-    DEFAULT_USER_AGENT = "Vimeo Rails Gem #{Vimeo::VERSION}".freeze
+    DEFAULT_USER_AGENT = "Vimeo Rails Gem".freeze
 
     # The response format appended to the path and sent in the 'Accept' header if none is set
     DEFAULT_FORMAT = :json
